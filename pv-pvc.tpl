@@ -31,7 +31,7 @@ metadata:
   name: ${name}
   namespace: default
   annotations:
-    volume.beta.kubernetes.io/storage-provisioner: ebs.csi.aws.com
+    volume.beta.kubernetes.io/storage-provisioner: efs.csi.aws.com
   finalizers:
     - kubernetes.io/pvc-protection
 spec:
